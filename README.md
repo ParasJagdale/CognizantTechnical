@@ -1,59 +1,72 @@
-# 📘 Cognizant PYQ Codes
+# 📘 Cognizant Technical Interview Preparation
 
-A curated collection of **Cognizant Past Year Coding Questions (PYQs)** with clean and well-explained **Python solutions**. This repository is aimed at helping students and freshers prepare effectively for **Cognizant online assessments and technical interviews**.
+A comprehensive collection of **Java coding problems** for Cognizant technical interviews. This repository contains solutions to past year questions (PYQs), practice problems, and coding challenges to help students and freshers prepare effectively.
 
 ---
 
 ## 🚀 Repository Structure
 
 ```
-cognizant-pyq-codes/
+CognizantTechnical/
 │
-├── Arrays/
-├── Strings/
-├── Patterns/
-├── LinkedLists/
-├── Searching_Sorting/
-├── Misc/
-└── README.md
+├── Root Level Problems/
+│   ├── BookSorting.java
+│   ├── ChocolateDistribution.java
+│   ├── Cryptographer.java
+│   ├── IntersectionExplample.java
+│   ├── LibraryCollection.java
+│   ├── MagicalLibrary.java
+│   ├── Main.java
+│   ├── MinimumSum.java
+│   ├── PalindromeNum.java
+│   ├── PasswordDistance.java
+│   ├── PenSwitching.java
+│   ├── ReadingProblem.java
+│   └── Test.java
+│
+├── InterviewPrep/
+├── ThisYearQueKN/
+├── knacademy/
+├── pratice/
+└── youtubecodes/
 ```
 
-Problems are organized **topic-wise** for structured preparation.
+Problems are organized by **source and category** for structured preparation.
 
 ---
 
 ## 🧠 What This Repo Covers
 
-- ✅ Frequently asked Cognizant coding questions
-- ✅ Beginner to intermediate level problems
-- ✅ Clean, readable Python code
-- ✅ Logic-focused and interview-oriented solutions
+- ✅ Cognizant coding questions from previous years
+- ✅ Array manipulation and sorting algorithms
+- ✅ String processing problems
+- ✅ Mathematical and logical puzzles
+- ✅ Pattern recognition and optimization
+- ✅ Interview-specific problem-solving techniques
 
 ---
 
-## 🧩 Problem Format
+## 📚 Problem Categories
 
-Each file contains:
-- **Problem statement**
-- **Input / Output description**
-- **Python solution with comments**
+### Arrays & Sorting
+- `BookSorting.java` - Sorting algorithms for book collections
+- `ChocolateDistribution.java` - Distribution optimization
+- `MinimumSum.java` - Array sum minimization
 
-### Example:
+### Strings & Cryptography
+- `Cryptographer.java` - String encryption/decryption
+- `PasswordDistance.java` - String distance calculation
+- `PalindromeNum.java` - Palindrome number detection
 
-```python
-"""
-Problem: Reverse a string.
+### Collections & Libraries
+- `LibraryCollection.java` - Collection management
+- `MagicalLibrary.java` - Advanced library operations
+- `ReadingProblem.java` - Reading and processing problems
 
-Input: "hello"
-Output: "olleh"
-"""
-
-def reverse_string(s):
-    return s[::-1]
-
-# Test
-print(reverse_string("hello"))  # Output: olleh
-```
+### Miscellaneous
+- `IntersectionExplample.java` - Intersection algorithms
+- `PenSwitching.java` - Switching logic
+- `Test.java` & `Main.java` - Test files and utilities
 
 ---
 
@@ -61,23 +74,28 @@ print(reverse_string("hello"))  # Output: olleh
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/cognizant-pyq-codes.git
+git clone https://github.com/ParasJagdale/CognizantTechnical.git
 ```
 
-### Navigate and run any file:
+### Compile and run any Java file:
 ```bash
-cd cognizant-pyq-codes
-python Strings/reverse_string.py
+cd CognizantTechnical
+javac BookSorting.java
+java BookSorting
 ```
+
+### Or use an IDE:
+- Open the repository in IntelliJ IDEA, Eclipse, or VS Code
+- Navigate to any `.java` file and run it
 
 ---
 
 ## 🎯 Who Should Use This
 
 - 🎓 Cognizant placement aspirants
-- 💼 Freshers preparing for coding rounds
-- 📚 Students strengthening Python fundamentals
-- 🧑‍💻 Anyone practicing company-specific PYQs
+- 💼 Freshers preparing for technical coding rounds
+- 📚 Students strengthening Java programming fundamentals
+- 🧑‍💻 Anyone practicing company-specific interview questions
 
 ---
 
@@ -85,34 +103,35 @@ python Strings/reverse_string.py
 
 Contributions are welcome! Here's how you can help:
 
-- ➕ Add new PYQs
+- ➕ Add new coding problems
 - 🔧 Improve existing solutions
-- ⚡ Optimize code or add explanations
+- ⚡ Optimize code or add detailed comments
+- 📝 Add problem descriptions and test cases
 
 ### Steps:
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/new-question`)
-3. Commit your changes (`git commit -m 'Add new question'`)
-4. Push to the branch (`git push origin feature/new-question`)
+2. Create a new branch (`git checkout -b feature/new-problem`)
+3. Commit your changes (`git commit -m 'Add new problem solution'`)
+4. Push to the branch (`git push origin feature/new-problem`)
 5. Open a Pull Request
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is open source and available for educational purposes.
 
 ---
 
 ## ⭐ Support
 
-If this repository helps you, please consider giving it a **star ⭐** to support the project.
+If this repository helps you in your interview preparation, please consider giving it a **star ⭐** to support the project!
 
 ---
 
 ## 📬 Contact
 
-For queries or suggestions, feel free to open an issue or reach out!
+For queries, suggestions, or bug reports, feel free to open an issue!
 
 ---
 
@@ -122,10 +141,9 @@ For queries or suggestions, feel free to open an issue or reach out!
 
 ### 📌 Quick Links
 
-- [Report Bug](https://github.com/<your-username>/cognizant-pyq-codes/issues)
-- [Request Feature](https://github.com/<your-username>/cognizant-pyq-codes/issues)
-- [Discussions](https://github.com/<your-username>/cognizant-pyq-codes/discussions)
+- [Report Bug](https://github.com/ParasJagdale/CognizantTechnical/issues)
+- [Request Feature](https://github.com/ParasJagdale/CognizantTechnical/issues)
 
 ---
 
-*Made with ❤️ for coding enthusiasts*
+*Made with ❤️ for Cognizant interview aspirants*
