@@ -146,4 +146,4 @@ For queries, suggestions, or bug reports, feel free to open an issue!
 
 ---
 
-*Made with ❤️ for Cognizant interview aspirants*
+*Made with ❤️ for Cognizant interview aspirants to prepare for Technical Round*
